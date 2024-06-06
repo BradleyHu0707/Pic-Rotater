@@ -1,0 +1,22 @@
+/* styles.css */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slides {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+/* styles.css */
+.slides {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
